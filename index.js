@@ -20,6 +20,8 @@ console.log(interestRate);
 //let firstName = undefined;
 //let selectedColor = null;
 
+//This are objects
+
 let person = {
     name: 'Theodore',
     Age: 5,
@@ -30,12 +32,27 @@ person.name = 'emmy'
 
 console.log(person.name);
 
+//This are arrays
+
 let selectedColor = ['yello', 'green'];
 console.log(selectedColor);
 
 let selectedRgb = ['yellow', 'green', 'blue', 'red'];
 selectedRgb[4] = 'purple';
 console.log(selectedRgb);
+
+let selectedRolls = ['yellow', 'green', 'blue', 'red'];
+selectedRolls[4] = 'purple';
+console.log(selectedRolls.length);
+
+//This is a function//
+
+function greet(name, lastName){
+    console.log('Hello ' + name + '' +lastName);
+}
+greet('Theodore ', 'Kirui')
+greet('Mercy ','Cherono')
+greet('Leonard ','Ruto')
 
 
 
