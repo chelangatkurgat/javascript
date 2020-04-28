@@ -30,6 +30,13 @@ person.name = 'emmy'
 
 console.log(person.name);
 
+let selectedColor = ['yello', 'green'];
+console.log(selectedColor);
+
+let selectedRgb = ['yellow', 'green', 'blue', 'red'];
+selectedRgb[4] = 'purple';
+console.log(selectedRgb);
+
 
 
 
