@@ -45,14 +45,23 @@ let selectedRolls = ['yellow', 'green', 'blue', 'red'];
 selectedRolls[4] = 'purple';
 console.log(selectedRolls.length);
 
+greet('Theodore ', 'Kirui')
+greet('Mercy ','Cherono')
+greet('Leonard ','Ruto')
+
 //This is a function//
+//Performing a task//
 
 function greet(name, lastName){
     console.log('Hello ' + name + '' +lastName);
 }
-greet('Theodore ', 'Kirui')
-greet('Mercy ','Cherono')
-greet('Leonard ','Ruto')
+
+//calculate and return a value
+function square(number){
+    return number * number;
+}
+
+console.log(square(7));
 
 
 
