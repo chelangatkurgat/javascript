@@ -1,8 +1,6 @@
-//strick equality (same type same value)
-console.log(1 === 1);
-console.log('1' === 1);
+//if a customer has more than 100 points they are 'gold' customer 
+//otherwise they are a silver customer
 
-//lose equality (value)
-console.log(1 == 1);
-console.log('1' == 1);
-console.log(true == 1);
+let points = 90;
+let type = points > 100 ? 'gold' : 'silver';
+console.log(type);
