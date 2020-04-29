@@ -1,15 +1,21 @@
- let math = (2 + 4) * 2;
- console.log (math);
+const person = {
+    name: 'Emmy',
+    age: 30
+};
 
- //Swap the colors
+for (let key in person)
+    // console.log(key);
 
- let a = 'red';
- let b = 'blue';
+    console.log(key, person[key]);
 
- let c = a;
- a = b;
- b = c
- console.log(a);
- console.log(b)
+const colors = ['red', 'blue', 'green']
 
- 
+for (let index in colors)
+// console.log(index);
+
+console.log(index, colors[index]);
+
+//This iterate elements or items in an array//
+for (let color of colors)
+    console.log(color);
+
