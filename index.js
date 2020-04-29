@@ -63,6 +63,9 @@ function square(number){
 
 console.log(square(7));
 
+let x = 10;
+let y = 3;
+
 
 
 
