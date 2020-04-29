@@ -1,17 +1,15 @@
-//falsy (false)
-//undefined
-//null
-//0
-//false
-//''
-//NoN
+ let math = (2 + 4) * 2;
+ console.log (math);
 
-//Anything that is not faalsy -> Truthy
+ //Swap the colors
 
-//short-circuting
+ let a = 'red';
+ let b = 'blue';
 
-let usercolor = undefined;
-let defaultcolor = 'blue';
-let currentColor = usercolor || defaultcolor;
+ let c = a;
+ a = b;
+ b = c
+ console.log(a);
+ console.log(b)
 
-console.log(currentColor);
+ 
