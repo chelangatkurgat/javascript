@@ -1,12 +1,8 @@
-let x = 1;
+//strick equality (same type same value)
+console.log(1 === 1);
+console.log('1' === 1);
 
-//Relational operators
-
-console.log(x > 0);
-console.log(x >= 1);
-console.log(x < 1 );
-console.log(x <= 1);
-
-//Equality 
-console.log(x ===1)
-console.log(x !== 1);
+//lose equality (value)
+console.log(1 == 1);
+console.log('1' == 1);
+console.log(true == 1);
