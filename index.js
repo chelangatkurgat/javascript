@@ -15,3 +15,7 @@ for (let index in colors)
 
 console.log(index, colors[index]);
 
+//This iterate elements or items in an array//
+for (let color of colors)
+    console.log(color);
+
