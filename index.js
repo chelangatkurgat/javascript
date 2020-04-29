@@ -1,13 +1,17 @@
-//logical AND (&&)
-//Returns TRUE if both operants are TRUE
+//falsy (false)
+//undefined
+//null
+//0
+//false
+//''
+//NoN
 
-let highIncome = false;
-let goodCreditScore = false;
-let eligibleForLoan = highIncome ||  goodCreditScore;
-console.log( 'Eligible', eligibleForLoan);
+//Anything that is not faalsy -> Truthy
 
-//Not (!)
-let applicationRefused = !eligibleForLoan;
+//short-circuting
 
+let usercolor = undefined;
+let defaultcolor = 'blue';
+let currentColor = usercolor || defaultcolor;
 
-console.log( 'Application Refused', applicationRefused);
+console.log(currentColor);
