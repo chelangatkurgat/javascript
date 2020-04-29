@@ -1,13 +1,15 @@
-//logical AND (&&)
-//Returns TRUE if both operants are TRUE
+ let math = (2 + 4) * 2;
+ console.log (math);
 
-let highIncome = false;
-let goodCreditScore = false;
-let eligibleForLoan = highIncome ||  goodCreditScore;
-console.log( 'Eligible', eligibleForLoan);
+ //Swap the colors
 
-//Not (!)
-let applicationRefused = !eligibleForLoan;
+ let a = 'red';
+ let b = 'blue';
 
+ let c = a;
+ a = b;
+ b = c
+ console.log(a);
+ console.log(b)
 
-console.log( 'Application Refused', applicationRefused);
+ 
