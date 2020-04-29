@@ -66,6 +66,30 @@ console.log(square(7));
 let x = 10;
 let y = 3;
 
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x/y);
+console.log(x%y);
+console.log(x**y);
+
+//increament (++)
+console.log(x++);
+
+//Decreament (--x)
+console.log(--x);
+
+//assignment operator;
+
+let q = 10;
+q = q + 5;
+q += 5;
+
+q =q * 3;
+q *= 3;
+
+
+console.log (q);
 
 
 
