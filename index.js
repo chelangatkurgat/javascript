@@ -1,6 +1,13 @@
-//if a customer has more than 100 points they are 'gold' customer 
-//otherwise they are a silver customer
+//logical AND (&&)
+//Returns TRUE if both operants are TRUE
 
-let points = 90;
-let type = points > 100 ? 'gold' : 'silver';
-console.log(type);
+let highIncome = false;
+let goodCreditScore = false;
+let eligibleForLoan = highIncome ||  goodCreditScore;
+console.log( 'Eligible', eligibleForLoan);
+
+//Not (!)
+let applicationRefused = !eligibleForLoan;
+
+
+console.log( 'Application Refused', applicationRefused);
