@@ -1,8 +1,11 @@
-console.log(isLandscape(800, 600));
+showNumbers(10);
 
-function isLandscape(width, height){
-return (width > height);
+function showNumbers(limit) {
+    for (let i = 0; i <= limit; i++) {
+        if (i % 2 === 0) console.log(i, 'EVEN');
+        else console.log(i, 'ODD')
 
-// return (width > height) ? true : false;
-    
+        const message = (i % 2 === 0) ? 'Even' : 'Odd';
+        console.log(i, message);
+    }
 }
