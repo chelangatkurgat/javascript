@@ -1,21 +1,12 @@
-const person = {
-    name: 'Emmy',
-    age: 30
-};
+showStars(10);
 
-for (let key in person)
-    // console.log(key);
+function showStars(rows) {
+    for (let row = 1; row <= rows; row++) {
+        let pattern = '';
+        for (let i = 0; i < row; i++)
+        pattern += '*';
+    console.log(pattern);
 
-    console.log(key, person[key]);
+    }
 
-const colors = ['red', 'blue', 'green']
-
-for (let index in colors)
-// console.log(index);
-
-console.log(index, colors[index]);
-
-//This iterate elements or items in an array//
-for (let color of colors)
-    console.log(color);
-
+}
