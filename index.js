@@ -1,14 +1,8 @@
-let number = max(5, 13);
-console.log(number);
+console.log(isLandscape(800, 600));
 
-function max( a, b){
-    return ( a > b) ? a : b;
-    // if (a > b) return a;
+function isLandscape(width, height){
+return (width > height);
 
-    // //...........
-    // else return b;
-
-
+// return (width > height) ? true : false;
+    
 }
-
-
