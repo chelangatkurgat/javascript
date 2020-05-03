@@ -1,12 +1,7 @@
-showStars(10);
-
-function showStars(rows) {
-    for (let row = 1; row <= rows; row++) {
-        let pattern = '';
-        for (let i = 0; i < row; i++)
-        pattern += '*';
-    console.log(pattern);
-
-    }
-
+let total = 0, count = 1;
+while ( count <= 10){
+    total += count;
+    count += 1;
 }
+console.log(total);
+
