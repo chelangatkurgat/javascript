@@ -1,14 +1,11 @@
-let mood = "happy"
- console.log(mood);
+let naomiDebt = "200"
+    naomiDebt = naomiDebt - 50;
+    console.log(naomiDebt);
 
- mood = "sad"
- console.log(mood)
+let theoDebt = "1000"
+    theoDebt = theoDebt - 350;
+    console.log(theoDebt)
 
- mood = "zombire"
- console.log(mood)
-
- let ruto = "Leonard, Emmy, Theodore"
-    console.log(ruto)
-
-let somo = "Recruiter";
-    console.log(somo)
+let wairimuDebt = "500"
+    wairimuDebt = wairimuDebt - 30;
+    console.log(wairimuDebt);
