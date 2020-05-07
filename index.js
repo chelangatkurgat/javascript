@@ -1,10 +1,9 @@
-function factorial(n) {
-    if (n == 0){
-        return 1;
-    }
-    else {
-        return factorial(n - 1) * n;
-    }
-}
-console.log(factorial(8));
+let num = Number(prompt("pick a number"));
 
+if (num < 10) {
+    console.log("small")
+}else if (num < 100){
+    console.log("medium");
+    }
+else{console.log("large");
+}
