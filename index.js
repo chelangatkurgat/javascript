@@ -1,10 +1,14 @@
-function factorial(n) {
-    if (n == 0){
-        return 1;
-    }
-    else {
-        return factorial(n - 1) * n;
-    }
-}
-console.log(factorial(8));
+let mood = "happy"
+ console.log(mood);
 
+ mood = "sad"
+ console.log(mood)
+
+ mood = "zombire"
+ console.log(mood)
+
+ let ruto = "Leonard, Emmy, Theodore"
+    console.log(ruto)
+
+let somo = "Recruiter";
+    console.log(somo)
