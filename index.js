@@ -22,3 +22,16 @@ for (let current = 20; ; current = current + 1) {
     }
 }
 
+
+switch (prompt("what is the weather like")) {
+    case "rainy":
+        console.log("Remember to bring an umbrella.");
+        break;
+    case "sunny":
+        console.log("Dress lightly");
+    case "claudy":
+        console.log("Go outside");
+    default:
+        console.log("unknown weather type!");
+        break;
+}
